@@ -1,0 +1,5 @@
+matplotlib==3.6.1
+numpy==1.23.3
+qiskit==0.38.0
+qiskit_ibmq_provider==0.19.2
+pylatexenc==2.10
