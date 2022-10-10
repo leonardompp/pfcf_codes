@@ -29,3 +29,4 @@ The following scripts are available in this package
 + qft
 + qpe
 + shor_order
++ bb84
