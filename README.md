@@ -13,4 +13,19 @@ These codes were used for generating the circuits and graphs at (add link to pdf
 
 ## The codes and how to run tem
 
-(DO LATER)
+To find out information about a script, run
+
+```
+$ python src/<script_name>.py -h
+```
+
+This will describe the script's purpose and arguments needed
+
+The following scripts are available in this package
+
++ rsa
++ elgamal
++ bell_state
++ qft
++ qpe
++ shor_order
