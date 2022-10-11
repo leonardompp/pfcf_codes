@@ -23,7 +23,6 @@ def main(qubit1, qubit0):
 
     # Plot in mpl
     qc.draw(output='mpl', initial_state=True, reverse_bits=True)  # Reverse for visualization, highest is MSQ
-    plt.show()
 
     # Plot QSphere (not described in paper, but can be found in qiskit. Generally too complicated, but useful here)
     print(f"Psi_[{qubit1}{qubit0}] = (1/sqrt(2))*(|0{qubit0}> {'+' if qubit1 == 0 else '-'} |1{1^qubit0}>)")
